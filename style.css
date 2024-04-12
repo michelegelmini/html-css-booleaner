@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(156, 214, 244);
+}
+
+.title {
+    margin-bottom: 16px;
+}
+
+#logo {
+    width: 10%;
+    padding: 18px 8px;
+}
+
+main {
+    padding: 16px 8px;
+}
+
+.subtitle {
+    color: gray;
+    font-size: 11px;
+}
+
+.date {
+    color: lightgray;
+    font-size: 10px;
+}
+
+img {
+    width: 30%;
+    height: 30%;
+}
+
+#tim-1 {}
