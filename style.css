@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     border: 0px;
+    max-width: fit-content;
 }
 
 header {
@@ -22,10 +23,13 @@ p {
 
 h1 {
     margin: 0px;
+    font-size: 25px;
 }
 
 main {
     padding: 16px 8px;
+    margin-bottom: 16px;
+    font-size: 11px;
 }
 
 .subtitle {
@@ -38,10 +42,6 @@ main {
     font-size: 10px;
 }
 
-/* img {
-    max-height: 30%;
-    max-width: 30%;
-} */
 
 #tim-1 {
     width: 35%;
@@ -60,9 +60,20 @@ main {
     font-size: 10px;
 }
 
+span {
+    background-color: yellow;
+}
+
 th {
     width: 30%;
 }
+
+ul {
+    padding-left: 18px;
+    margin-left: 0px;
+}
+
+
 
 thead {
     text-align: left;
@@ -74,4 +85,12 @@ tbody {
     tr:nth-child(odd) {
         background-color: rgb(219, 225, 238);
     }
+}
+
+footer {
+    background-color: rgb(49, 58, 107);
+    text-align: center;
+    color: white;
+    padding: 16px;
+    font-size: 10px;
 }
