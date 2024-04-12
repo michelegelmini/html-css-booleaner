@@ -1,19 +1,27 @@
-* {
+body {
     margin: 0px;
-    padding: 0px;
+    border: 0px;
 }
 
 header {
     background-color: rgb(156, 214, 244);
 }
 
+#logo {
+    width: 10%;
+    padding: 18px 8px;
+}
+
 .title {
     margin-bottom: 16px;
 }
 
-#logo {
-    width: 10%;
-    padding: 18px 8px;
+p {
+    margin: 0px;
+}
+
+h1 {
+    margin: 0px;
 }
 
 main {
@@ -30,9 +38,40 @@ main {
     font-size: 10px;
 }
 
-img {
-    width: 30%;
-    height: 30%;
+/* img {
+    max-height: 30%;
+    max-width: 30%;
+} */
+
+#tim-1 {
+    width: 35%;
 }
 
-#tim-1 {}
+#tim-2 {
+    width: 30%;
+}
+
+.container {
+    max-height: 30%;
+    margin-bottom: 18px;
+}
+
+.caption {
+    font-size: 10px;
+}
+
+th {
+    width: 30%;
+}
+
+thead {
+    text-align: left;
+    background-color: rgb(127, 166, 251);
+    color: white;
+}
+
+tbody {
+    tr:nth-child(odd) {
+        background-color: rgb(219, 225, 238);
+    }
+}
